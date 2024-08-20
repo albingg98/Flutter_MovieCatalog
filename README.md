@@ -1,16 +1,44 @@
-# flutter_app4
+# Flutter Movie Catalog
+![68747470733a2f2f692e696d6775722e636f6d2f3775434269](https://github.com/user-attachments/assets/fdcdd967-fbf0-4f68-96b7-bb0ea66c906b)
 
-A new Flutter project.
+Flutter Movie Catalog es una aplicación móvil desarrollada en Flutter que permite a los usuarios explorar y descubrir películas. La aplicación muestra una lista de películas populares, permite buscar por título, ver detalles específicos de cada película, y marcar películas como favoritas.
 
-## Getting Started
+## Características
 
-This project is a starting point for a Flutter application.
+- **Explorar Películas**: Visualiza una lista de películas populares actualizadas.
+- **Búsqueda de Películas**: Busca películas por título para encontrar tus favoritas rápidamente.
+- **Detalles de la Película**: Visualiza información detallada de cada película, incluyendo sinopsis, fecha de lanzamiento, calificaciones, y más.
+- **Favoritos**: Marca y organiza tus películas favoritas para un fácil acceso.
+- **Interfaz Intuitiva**: Diseño moderno y fácil de usar, inspirado en Material Design.
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologías Utilizadas
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- **Lenguaje**: Dart
+- **Framework**: Flutter
+- **Arquitectura**: MVVM (Model-View-ViewModel)
+- **APIs**: The Movie Database (TMDb) API para obtener datos de las películas.
+- **Dependencias**:
+  - **http**: Para realizar solicitudes a la API de TMDb.
+  - **provider**: Para la gestión del estado.
+  - **flutter_bloc**: Para la implementación del patrón BLoC.
+  - **cached_network_image**: Para la carga y almacenamiento en caché de imágenes.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Instalación
+
+1. Clona el repositorio en tu máquina local:
+    ```bash
+    git clone https://github.com/albingg98/Flutter_MovieCatalog.git
+    ```
+2. Navega al directorio del proyecto:
+    ```bash
+    cd Flutter_MovieCatalog
+    ```
+3. Instala las dependencias necesarias:
+    ```bash
+    flutter pub get
+    ```
+4. Obtén tu clave de API de [TMDb](https://www.themoviedb.org/documentation/api) y configúrala en el proyecto.
+5. Ejecuta la aplicación en un emulador o dispositivo:
+    ```bash
+    flutter run
+    ```
